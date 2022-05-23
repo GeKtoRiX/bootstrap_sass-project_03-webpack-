@@ -1,0 +1,25 @@
+// bootstrap.
+@use './styles/scss/custom';
+// site components.
+@use './styles/scss/components/animations';
+@use './styles/scss/components/buttons';
+@use './styles/scss/components/typography';
+@use './styles/scss/components/mixins';
+// site sections.
+@use './styles/scss/sections/navbar';
+@use './styles/scss/sections/home';
+// google fonts.
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Merriweather:wght@300;400;700;900&family=Pacifico&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: 'Merriweather', serif;
+}
+body{
+  position: relative;
+  overflow-x: hidden;
+}

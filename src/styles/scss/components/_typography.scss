@@ -1,0 +1,11 @@
+@use '../custom'as *;
+@use '../components/mixins'as *;
+
+// Фиксация элемента на длину и ширину экрана.
+.landing {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: table;
+  z-index: -1;
+}

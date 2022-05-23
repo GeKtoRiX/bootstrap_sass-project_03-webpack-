@@ -1,0 +1,21 @@
+// Центрирование внутри флекс элемента.
+@mixin flexCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+// Абсолютное центрирование(Не забудь указать относительный элемент!).
+@mixin absoluteCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+// Переход.
+@mixin transitionStdStyle {
+    transition-duration: 1000ms;
+    transition-property: all;
+}
