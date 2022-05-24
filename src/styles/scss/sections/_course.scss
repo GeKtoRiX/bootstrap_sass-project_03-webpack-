@@ -19,11 +19,13 @@
     }
 
     h1{
+        text-transform: uppercase;
         text-shadow: 0.1rem 0.1rem 0.1rem $black;
         color: $teal;
     }
     p{
         font-size: 1.5rem;
+        font-weight: 500;
         color: $black;
     }
 }

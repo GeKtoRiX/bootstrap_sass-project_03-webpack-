@@ -11,6 +11,8 @@
 @use './styles/scss/sections/course';
 @use './styles/scss/sections/features';
 @use './styles/scss/sections/resources';
+@use './styles/scss/sections/clients';
+@use './styles/scss/sections/footer';
 // google fonts.
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Merriweather:wght@300;400;700;900&family=Pacifico&display=swap');
 
@@ -23,5 +25,5 @@ html {
   font-family: 'Merriweather', serif;
 }
 body{
-  background: #dee2e6;
+  background: #e9ecef;
 }

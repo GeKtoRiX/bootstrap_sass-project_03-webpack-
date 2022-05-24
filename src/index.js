@@ -1,5 +1,5 @@
 import 'bootstrap';
-// import '../node_modules/@fortawesome/fontawesome-free/css/all.css';
+import '../node_modules/@fortawesome/fontawesome-free/css/all.css';
 import './main.scss';
 var reqScripts = require.context("./scripts", true, /^(.*\.(js$))[^.]*$/i);
 reqScripts.keys().forEach(reqScripts);
@@ -13,8 +13,10 @@ import resourcesIconSrc1 from './icons/resources/html-img.png';
 import resourcesIconSrc2 from './icons/resources/bootstrap-img.png';
 import resourcesIconSrc3 from './icons/resources/css-img.png';
 // projects imgs
+import clientsImgSrc1 from './img/clients/clients-img1.jpg';
+import clientsImgSrc2  from './img/clients/clients-img2.jpg';
 
-// #nav-icon
+// #navbar
 const navIcon = document.getElementById('logo-site');
 navIcon.src = navIconSrc;
 // #features
@@ -31,5 +33,11 @@ const resourcesIcon2 = document.getElementById('resourcesIcon2');
 resourcesIcon2.src = resourcesIconSrc2;
 const resourcesIcon3 = document.getElementById('resourcesIcon3');
 resourcesIcon3.src = resourcesIconSrc3;
+// #clients
+const clientsImg1 = document.getElementById('clientsImg1');
+clientsImg1.src = clientsImgSrc1;
+const clientsImg2 = document.getElementById('clientsImg2');
+clientsImg2.src = clientsImgSrc2;
+
 
 
