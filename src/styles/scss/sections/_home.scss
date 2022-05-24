@@ -2,6 +2,7 @@
 @use '../components/mixins'as *;
 
 .home {
+    position: relative;
     .landing {
         .home-wrap {
             .home-inner {
@@ -16,5 +17,22 @@
         @include absoluteCenter;
         width: 100%;
         max-width: 100%;
+        z-index: 1;
+        text-transform: uppercase;
+        color: $white;
+
+        h1 {
+            padding-bottom: 1rem;
+            font-size: 3.5rem;
+            font-weight: 700;
+            letter-spacing: 0.2rem;
+            text-shadow: 0.1rem 0.1rem 0.5rem $black;
+        }
+
+        h3 {
+            padding-bottom: 1rem;
+            font-size: 2rem;
+            text-shadow: 0.1rem 0.1rem 0.3rem $black;
+        }
     }
 }

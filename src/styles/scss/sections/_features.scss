@@ -1,0 +1,27 @@
+@use '../custom'as *;
+@use '../components/mixins'as *;
+
+.features{
+    h1{
+        text-transform: uppercase;
+    }
+    h3{
+        margin-top: 1.5rem;
+        margin-bottom: 2rem;
+        text-transform: uppercase;
+        text-shadow: 0.1rem 0.1rem 0.1rem $black;
+        color: $teal;
+    }
+
+    p{
+        font-weight: 500;
+    }
+    .features-img{
+        width: 3rem;
+        height: 3rem;
+        margin: 0 auto;
+        img{
+            width: 100%;
+        }
+    }
+}

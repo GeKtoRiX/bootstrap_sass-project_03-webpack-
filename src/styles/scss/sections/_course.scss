@@ -1,0 +1,29 @@
+@use '../custom'as *;
+@use '../components/mixins'as *;
+
+.course {
+    color: white;
+    border-bottom: 1px solid $gray-600;
+
+    .button {
+        transition: background-color 0.5s;
+        border-width: 0.3rem;
+        border-color: $white;
+        box-shadow: 0.1rem 0.1rem 0.6rem $black;
+        background-color: $teal;
+        color: $black;
+
+        &:hover {
+            background-color: $gold;
+        }
+    }
+
+    h1{
+        text-shadow: 0.1rem 0.1rem 0.1rem $black;
+        color: $teal;
+    }
+    p{
+        font-size: 1.5rem;
+        color: $black;
+    }
+}

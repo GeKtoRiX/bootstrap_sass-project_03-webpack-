@@ -8,6 +8,9 @@
 // site sections.
 @use './styles/scss/sections/navbar';
 @use './styles/scss/sections/home';
+@use './styles/scss/sections/course';
+@use './styles/scss/sections/features';
+@use './styles/scss/sections/resources';
 // google fonts.
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Merriweather:wght@300;400;700;900&family=Pacifico&display=swap');
 
@@ -20,6 +23,5 @@ html {
   font-family: 'Merriweather', serif;
 }
 body{
-  position: relative;
-  overflow-x: hidden;
+  background: #dee2e6;
 }
