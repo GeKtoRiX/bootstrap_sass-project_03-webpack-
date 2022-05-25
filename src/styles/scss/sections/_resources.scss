@@ -1,33 +1,38 @@
 @use '../custom'as *;
 @use '../components/mixins'as *;
 
-.resources{
-    background-image: url(https://picsum.photos/1920/1080);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    h1{
+.resources {
+    background-color: rgba(0,0,0,0.65);
+    color: white;
+    h1 {
         text-transform: uppercase;
     }
-    h3{
+
+    h3 {
         margin-bottom: 1rem;
         text-transform: uppercase;
         text-shadow: 0.1rem 0.1rem 0.1rem $black;
         color: $white;
     }
 
-    p{
+    p {
         margin-top: 1rem;
         font-weight: 500;
         color: $white;
     }
-    .resources-img{
+
+    .resources-img {
         width: 4rem;
         height: 4rem;
         margin: 0 auto;
-        img{
+
+        img {
             width: 100%;
         }
+    }
+
+    .fixed {
+        background-image: url(https://picsum.photos/1920/1080);
+        z-index: -1;
     }
 }
